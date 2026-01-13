@@ -13,13 +13,15 @@
 
 ## 1. The Vision
 <a name="vision"></a>
-The era of training is stabilizing. Most models are bruteforcing most benchmarks to the point that they become irrelevant. We think that this issue is caused by one big problem. There is too much paper but nothing to concretize them. Instead we prefer training to death the biggest model possible.
-One model to rule them all they say.
-We think among others, that maybe connecting smaller models, making deep recursive thinking like human do may be a good idea.
+The era of training is stabilizing. Most models are brute-forcing most benchmarks to the point that they become irrelevant. We think that this issue is caused by one big problem. There is too much paper but nothing to concretize them. Instead we prefer training to death the biggest model possible.
 
-After all Poetiq tried it and it worked very well on tests like ARC-AGI. Why not applying the same principles to real world application like development?
+One model to rule them all, they say.
 
-If nature made us think like that, there is maybe a reason, we try to turn LLMs into builders, not overtrained monster.
+We think, among others, that maybe connecting smaller models, making deep recursive thinking like humans do, may be a good idea.
+
+After all, Poetiq tried it, and it worked very well on tests like ARC-AGI. Why not apply the same principles to real-world applications, like development?
+
+If nature made us think like that, there is maybe a reason; we try to turn LLMs into builders, not overtrained monsters.
 
 > "A model answers a question. Brio solves a problem." would describe what we try to build.
 
