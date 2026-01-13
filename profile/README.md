@@ -40,6 +40,7 @@ Instead of burning budget on a monolithic call, Brio orchestrates a symphony of 
 * **The Thinkers (Strategy & Verification):** When the system needs to architect a solution, audit code for security, or reason through ambiguity, it escalates to heavy lifters like **Claude 4.5 Opus**.
 
 **Result:** You get some of the reasoning depth of a frontier model with the throughput and cost-efficiency of a lightweight runner. Cool enough?
+
 Although it's not as magical as just running Claude Opus 4.5 24h/24h, you will still have money on your bank account at the end of the month.
 
 ---
@@ -48,7 +49,7 @@ Although it's not as magical as just running Claude Opus 4.5 24h/24h, you will s
 <a name="topology"></a>
 We provide the primitives. You define the physics.
 
-While we offer robust presets (like the classic *Architect → Builder → Critic* loop), Brio enforces no specific topology. You are free to structure the "Service Mesh of Minds" exactly how your domain requires.
+While we offer robust presets (like the classic *Architect → Builder → Critic* loop), Brio enforces no specific topology. You are free to structure the "Service Mesh of Minds" exactly how your domain requires. That means you can experiment with however you think "reasoning the good way" is.
 
 ### Design Your Graph
 The Brio Kernel is a blank canvas for directed acyclic graphs (DAGs) or recursive loops:
@@ -62,7 +63,7 @@ Whether you need a simple linear pipe or a complex, self-healing swarm, Brio's s
 ---
 
 ## 4. Engineering Philosophy
-We don't deal in hype. We deal in **deterministic control of non-deterministic systems.**
+LLMs are brilliant, but they’re also chaotic. They hallucinate, they confidently suggest ``rm -rf /`` is a good idea at debugging your frontend, and they don’t care about your uptime. We didn't build Brio to just "chat" with your machine; we built it to be a craftsman that respects the system it’s working on.
 
 Our architecture is built on three non-negotiable pillars:
 
