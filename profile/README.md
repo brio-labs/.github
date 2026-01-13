@@ -39,8 +39,8 @@ Instead of burning budget on a monolithic call, Brio orchestrates a symphony of 
 * **The Sprinters (Execution & Syntax):** For high-speed code generation and formatting, we leverage hyper-optimized, low-latency models like **Devstral 2 2512** or **GLM 4.7**. Fast, cheap, and brutally effective at following instructions.
 * **The Thinkers (Strategy & Verification):** When the system needs to architect a solution, audit code for security, or reason through ambiguity, it escalates to heavy lifters like **Claude 4.5 Opus**.
 
-**Result:** You get some of the reasoning depth of a frontier model with the throughput and cost-efficiency of a lightweight runner. Cool enough? 
-Although it's not as magical than just running Claude Opus 4.5 24h/24h, you will still have money on your bank account at the end of the month.
+**Result:** You get some of the reasoning depth of a frontier model with the throughput and cost-efficiency of a lightweight runner. Cool enough?
+Although it's not as magical as just running Claude Opus 4.5 24h/24h, you will still have money on your bank account at the end of the month.
 
 ---
 
