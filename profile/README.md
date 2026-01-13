@@ -99,6 +99,6 @@ If you care about:
 
 ### [ View our open protocols ]  •  [ Read the Manifest ]
 
-*Brio © 2026. The Cognitive Runtime.*
+*Brio © 2026. The Cognitive Orchestration.*
 
 </div>
