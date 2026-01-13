@@ -1,4 +1,4 @@
-<div align="center">
+<img width="2752" height="1536" alt="Flowo cleaned" src="https://github.com/user-attachments/assets/b97b55a2-ca54-4aab-a580-71189c5684a9" /><div align="center">
 
 # B R I O
 ### Intelligence. Orchestrated.
@@ -10,6 +10,7 @@
 </div>
 
 ---
+<img width="2752" height="1536" alt="Flowo" src="https://github.com/user-attachments/assets/09c13ebc-5f1e-45c1-bc13-6b91651ff6b8" />
 
 ## 1. The Vision
 <a name="vision"></a>
