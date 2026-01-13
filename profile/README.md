@@ -3,12 +3,7 @@
 # B R I O
 ### Intelligence. Orchestrated.
 
-[ *System 2 for the Synthetic Mind* ]
-
 ---
-
-**We do not build models.**
-**We build the architecture that makes them think.**
 
 [The Vision](#vision) • [Adaptive Intelligence](#adaptive) • [Topology Agnostic](#topology) • [Join Us](#join)
 
@@ -17,13 +12,16 @@
 ---
 
 ## 1. The Vision
-The era of training is stabilizing. The era of **reasoning** has begun.
+<a name="vision"></a>
+The era of training is stabilizing. Most models are bruteforcing most benchmarks to the point that they become irrelevant. We think that this issue is caused by one big problem. There is too much paper but nothing to concretize them. Instead we prefer training to death the biggest model possible.
+One model to rule them all they say.
+We think among others, that maybe connecting smaller models, making deep recursive thinking like human do may be a good idea.
 
-Current Language Models are powerful engines, but they are idling in a garage. **Brio** is the transmission, the chassis, and the driver. We exist to solve the "Last Mile" of Artificial General Intelligence.
+After all Poetiq tried it and it worked very well on tests like ARC-AGI. Why not applying the same principles to real world application like development?
 
-We believe true intelligence isn't about predicting the next token; it's about **recursive thinking**, **strategic subtasking**, and **agentic collaboration**. But intelligence without efficiency is useless. We build systems that are as economically viable as they are smart.
+If nature made us think like that, there is maybe a reason, we try to turn LLMs into builders, not overtrained monster.
 
-> "A model answers a question. Brio solves a problem."
+> "A model answers a question. Brio solves a problem." would describe what we try to build.
 
 ---
 
@@ -80,6 +78,7 @@ We are defining the interface for the future of software.
 ---
 
 ## 6. Join the Swarm
+<a name="join"></a>
 We are looking for engineers who are bored with prompt engineering and ready to build **cognitive architectures**.
 
 If you care about:
