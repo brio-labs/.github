@@ -1,104 +1,89 @@
 <div align="center">
 
-# B R I O
-### Intelligence. Orchestrated.
+# Brio
+### Distributed Cognitive Runtime & Orchestration Kernel
 
 ---
 
-[The Vision](#vision) • [Adaptive Intelligence](#adaptive) • [Topology Agnostic](#topology) • [Join Us](#join)
+[Core Vision](#vision) • [System Architecture](#architecture) • [Engineering Principles](#engineering) • [Join the Network](#join)
 
 </div>
 
 ---
-<img width="2752" height="1536" alt="Flowo" src="https://github.com/user-attachments/assets/09c13ebc-5f1e-45c1-bc13-6b91651ff6b8" />
 
-## 1. The Vision
+![Brio Orchestration](https://github.com/user-attachments/assets/09c13ebc-5f1e-45c1-bc13-6b91651ff6b8)
+
+## 1. Vision
 <a name="vision"></a>
-The era of training is stabilizing. Most models are brute-forcing most benchmarks to the point that they become irrelevant. We think that this issue is caused by one big problem. There is too much paper but nothing to concretize them. Instead we prefer training to death the biggest model possible.
+Modern LLM scaling is approaching a point of diminishing returns for general-purpose benchmarks. While monolithic models excel at broad reasoning, they are often inefficient for specific, high-frequency tasks. 
 
-One model to rule them all, they say.
+Brio shifts the paradigm from **monolithic scaling** to **orchestrated intelligence**. We believe that connecting specialized, smaller models through deep recursive loops and directed graphs provides a more robust and cost-effective path toward complex problem-solving than simply increasing parameter counts.
 
-We think, among others, that maybe connecting smaller models, making deep recursive thinking like humans do, may be a good idea.
-
-After all, Poetiq tried it, and it worked very well on tests like ARC-AGI. Why not apply the same principles to real-world applications, like development?
-
-If nature made us think like that, there is maybe a reason; we try to turn LLMs into builders, not overtrained monsters.
-
-> "A model answers a question. Brio solves a problem." would describe what we try to build.
+Brio is built to turn LLMs into reliable system components—builders, auditors, and kernels—rather than just conversational interfaces.
 
 ---
 
-## 2. Adaptive Intelligence: The Economics of Thought
-<a name="adaptive"></a>
-High-level reasoning is expensive. Raw execution shouldn't be.
+## 2. Adaptive Intelligence & Tiered Routing
+<a name="architecture"></a>
+Brio treats compute as a tiered supply chain. The kernel dynamically routes tasks to the most efficient model based on the node's requirements, balancing **latency, operational cost, and perplexity.**
 
-Brio rejects the "One Model to Rule Them All" dogma. We treat intelligence as a tiered supply chain. Our kernel routes tasks to the most efficient model for the specific node in your graph, balancing **latency, cost, and perplexity.**
+### Intelligence Hierarchy
+Instead of utilizing a frontier model for every operation, Brio orchestrates a hierarchy of specialized weights:
 
-### The Hierarchy of Compute
-Instead of burning budget on a monolithic call, Brio orchestrates a symphony of specialized weights:
+*   **Instruction Tuned (Execution):** Hyper-optimized models for syntax, formatting, and high-speed execution (e.g., Llama-3-70B, Devstral).
+*   **Reasoning Models (Strategy):** Frontier-class models for architectural decisions, security auditing, and verification (e.g., Claude 3.5 Sonnet, GPT-4o).
 
-* **The Sprinters (Execution & Syntax):** For high-speed code generation and formatting, we leverage hyper-optimized, low-latency models like **Devstral 2 2512** or **GLM 4.7**. Fast, cheap, and brutally effective at following instructions.
-* **The Thinkers (Strategy & Verification):** When the system needs to architect a solution, audit code for security, or reason through ambiguity, it escalates to heavy lifters like **Claude 4.5 Opus**.
-
-**Result:** You get some of the reasoning depth of a frontier model with the throughput and cost-efficiency of a lightweight runner. Cool enough?
-
-Although it's not as magical as just running Claude Opus 4.5 24h/24h, you will still have money on your bank account at the end of the month.
+This approach ensures frontier-level reasoning depth while maintaining the throughput and cost profile of a lightweight system.
 
 ---
 
-## 3. Topology Agnostic: Your Workflow, Your Rules
-<a name="topology"></a>
-We provide the primitives. You define the physics.
+## 3. Topology Agnostic Design
+Brio provides the primitives; users define the execution physics. The system is strictly headless, allowing for the construction of any arbitrary graph or recursive loop.
 
-While we offer robust presets (like the classic *Architect → Builder → Critic* loop), Brio enforces no specific topology. You are free to structure the "Service Mesh of Minds" exactly how your domain requires. That means you can experiment with however you think "reasoning the good way" is.
+### Supported Topologies
+*   **Linear Pipelines:** *Researcher → Summarizer → Formatter*
+*   **Recursive Verification Loops:** *Implement ↔ Test (Iterate until success)*
+*   **Consensus Networks (The Council):** *N-Parallel Proposals → Synthesis/Audit*
 
-### Design Your Graph
-The Brio Kernel is a blank canvas for directed acyclic graphs (DAGs) or recursive loops:
-
-* **The Linear Factory:** *Researcher → Summarizer → Formatter*
-* **The recursive Loop:** *Coder ↔ Tester (Repeat until 0 errors)*
-* **The Council:** *3 separate Agents propose solutions → 1 Judge synthesizes the best.*
-
-Whether you need a simple linear pipe or a complex, self-healing swarm, Brio's strictly headless architecture adapts to the shape of your problem.
+The architecture is designed to handle everything from simple linear pipes to complex, self-healing swarms.
 
 ---
 
-## 4. Engineering Philosophy
-LLMs are brilliant, but they’re also chaotic. They hallucinate, they confidently suggest ``rm -rf /`` is a good idea at debugging your frontend, and they don’t care about your uptime. We didn't build Brio to just "chat" with your machine; we built it to be a craftsman that respects the system it’s working on.
+## 4. Engineering Principles
+<a name="engineering"></a>
+Reliability is the core requirement for autonomous systems. Brio is engineered around three technical pillars:
 
-Our architecture is built on three non-negotiable pillars:
-
-| Pillar | Concept |
-| :--- | :--- |
-| **Strict Isolation** | **The Sandbox.** Intelligence needs boundaries. Every agent operates in a jailed environment (WASI) with atomic state management. We never let AI "hallucinate" changes to your production system. |
-| **Zero-Copy Mesh** | **The Speed.** Thought should be instantaneous. We bypass serialization overhead, allowing agents to share memory and context via high-frequency internal channels. |
-| **Active Orchestration** | **The Supervisor.** We do not rely on "autonomous" drift. A central policy engine dictates control flow, ensuring that agents serve the objective, not their own loops. |
-
-## 5. The Brio Standard
-* **Headless by Default:** We build kernels, not chatbots.
-* **Safety First:** Intelligence without containment is a hazard.
-* **Lean Core:** We reject bloat. We build precise tools for precise work.
+| Pillar                   | Technical Implementation                                                                                        |
+| :----------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| **Strict Isolation**     | All agent operations occur within sandboxed WASI environments with atomic state management.                     |
+| **Zero-Copy Mesh**       | High-frequency internal channels facilitate memory and context sharing without serialization overhead.          |
+| **Active Orchestration** | A central policy engine dictates control flow, ensuring deterministic behavior and preventing autonomous drift. |
 
 ---
 
-## 6. Join the Swarm
+## 5. System Standards
+*   **Headless Architecture:** Built as a kernel for integration, not a chatbot.
+*   **Security First:** Deterministic containment of model outputs.
+*   **Lean Core:** Minimal footprint, optimized for high-performance orchestration.
+
+---
+
+## 6. Join the Network
 <a name="join"></a>
-We are looking for engineers who are bored with prompt engineering and ready to contribute to the mechanization of **reasoning**.
+We are seeking engineers interested in the mechanization of reasoning and high-performance distributed systems.
 
-If you care about:
-* Distributed Systems & Graph Theory
-* Sandboxing & Security
-* High-Performance Orchestration
-* The mechanization of reasoning
-
-**You are home.**
+**Key Focus Areas:**
+*   Graph Theory & Distributed Orchestration
+*   WASM/WASI Sandboxing
+*   Advanced Prompt Engineering & Model Distillation
 
 ---
 
 <div align="center">
 
-### [ View our open protocols ]  •  [ Read the Manifest ]
+### [ Protocols ]  •  [ Manifest ]
 
 *Brio © 2026. The Cognitive Runtime.*
 
 </div>
+
