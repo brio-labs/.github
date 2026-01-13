@@ -1,4 +1,4 @@
-<img width="2752" height="1536" alt="Flowo cleaned" src="https://github.com/user-attachments/assets/b97b55a2-ca54-4aab-a580-71189c5684a9" /><div align="center">
+<div align="center">
 
 # B R I O
 ### Intelligence. Orchestrated.
