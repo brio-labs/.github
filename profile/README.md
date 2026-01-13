@@ -64,7 +64,7 @@ Whether you need a simple linear pipe or a complex, self-healing swarm, Brio's s
 
 ## 4. Engineering Philosophy
 LLMs are brilliant, but they’re also chaotic. They hallucinate, they confidently suggest ``rm -rf /`` is a good idea at debugging your frontend, and they don’t care about your uptime. We didn't build Brio to just "chat" with your machine; we built it to be a craftsman that respects the system it’s working on.
-AI is a bit like my cat, he's usually cute
+
 Our architecture is built on three non-negotiable pillars:
 
 | Pillar | Concept |
