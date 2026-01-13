@@ -64,7 +64,7 @@ Whether you need a simple linear pipe or a complex, self-healing swarm, Brio's s
 
 ## 4. Engineering Philosophy
 LLMs are brilliant, but they’re also chaotic. They hallucinate, they confidently suggest ``rm -rf /`` is a good idea at debugging your frontend, and they don’t care about your uptime. We didn't build Brio to just "chat" with your machine; we built it to be a craftsman that respects the system it’s working on.
-
+AI is a bit like my cat, he's usually cute
 Our architecture is built on three non-negotiable pillars:
 
 | Pillar | Concept |
@@ -74,7 +74,6 @@ Our architecture is built on three non-negotiable pillars:
 | **Active Orchestration** | **The Supervisor.** We do not rely on "autonomous" drift. A central policy engine dictates control flow, ensuring that agents serve the objective, not their own loops. |
 
 ## 5. The Brio Standard
-We are defining the interface for the future of software.
 * **Headless by Default:** We build kernels, not chatbots.
 * **Safety First:** Intelligence without containment is a hazard.
 * **Lean Core:** We reject bloat. We build precise tools for precise work.
@@ -83,7 +82,7 @@ We are defining the interface for the future of software.
 
 ## 6. Join the Swarm
 <a name="join"></a>
-We are looking for engineers who are bored with prompt engineering and ready to build **cognitive architectures**.
+We are looking for engineers who are bored with prompt engineering and ready to contribute to the mechanization of **reasoning**.
 
 If you care about:
 * Distributed Systems & Graph Theory
